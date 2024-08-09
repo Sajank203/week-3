@@ -1,12 +1,13 @@
-from datetime import datetime 
+#square.py
+#
+#author:A.N.Other
+#date:September 2016
 
-#now() method is used to
-#get object containing
-#current date & time.
-now_method = datetime.now()
+side_j=int(input("please enter the length of one side of the square/n/n"))
+print("/nThe area of your square is",side_j**2,"n/n")
 
-#strftime() method used to
-#create a string representing
-#the current time.
-currentTime = now_method.strftime("%H:%M:%S")
-print("current time =" , currentTime)
+#Testing
+""
+print("my assertions are:")
+"/nj=5 output=25"
+"/nj=12 output=144"
